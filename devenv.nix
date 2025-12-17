@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 
 {
+  dotenv.enable = true;
+
   packages = with pkgs; [
     just
     semver-tool
