@@ -105,7 +105,7 @@ wheels = [
 
 [[package]]
 name = "elevenlabs"
-version = "2.32.0"
+version = "2.34.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
@@ -115,9 +115,9 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8f/09/d945c793699a0df0de3f0038e3517c851093249a78f83e010e0a047d513f/elevenlabs-2.32.0.tar.gz", hash = "sha256:b3f7d41c12a1054b0b0130555099b6b8011cf134239ecedb1d4286e96461fd36", size = 454997, upload-time = "2026-01-26T10:56:14.936Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/04/d1/fedeeeadf95ce0692fb857926a9f821a4523c6063bb1edf737bb3d695fbf/elevenlabs-2.34.0.tar.gz", hash = "sha256:ddd35b25cb7b419ec13c40fab88e0de697db4f763779ae53ecd7794446d5f7ac", size = 458518, upload-time = "2026-02-02T11:21:01.856Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/95/6e/794c320b96dcd4531f6f6ad2cb99fbbaf5b425d6ad617321401fe723d19c/elevenlabs-2.32.0-py3-none-any.whl", hash = "sha256:396c8ff4a229a88ea3120e02c44ef840dda057c7f439b9fa070222dc4b644a4d", size = 1213229, upload-time = "2026-01-26T10:56:12.76Z" },
+    { url = "https://files.pythonhosted.org/packages/54/01/5eeb515280726a8b9be42b8905e6a7b53773e630da9c3f05e8dedb098ebb/elevenlabs-2.34.0-py3-none-any.whl", hash = "sha256:3a46b40e69ac2841b2183a00d651a68bd11733d95d32a5ed8163d3aa6a0b13be", size = 1220339, upload-time = "2026-02-02T11:21:00.179Z" },
 ]
 
 [[package]]
