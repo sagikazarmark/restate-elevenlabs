@@ -1,7 +1,7 @@
 FROM ghcr.io/astral-sh/uv:0.9.27@sha256:143b40f4ab56a780f43377604702107b5a35f83a4453daf1e4be691358718a6a AS uv
 
 
-FROM python:3.14.2@sha256:f05033a4c0ff84db95fd7e6cb361b940a260703d1cd63c63b3472c8ee48e9cff AS builder
+FROM python:3.15.0a5@sha256:59adeb15df6bfce0e0e3eb4341ddb98d6569ace836b7ca13ef05c5625e14af9f AS builder
 
 RUN apt-get update && \
     apt-get install -y git && \
@@ -25,7 +25,7 @@ RUN uv sync --frozen --no-dev --extra app
 
 
 
-FROM python:3.14.2-slim@sha256:f7864aa85847985ba72d2dcbcbafd7475354c848e1abbdf84f523a100800ae0b
+FROM python:3.15.0a5-slim@sha256:729c0bca17eda26a54f985259857edf5908f7b92632dbe5730ccae05c123ab89
 
 WORKDIR /usr/src/app
 
